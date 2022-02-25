@@ -24,7 +24,7 @@ span{
   text-align: center;
 }
 /* about me styling */
-.aboutme{
+.about{
   border: 1px solid black;
   display: flex;  
 }
@@ -33,7 +33,7 @@ span{
   width: 30%;  
 }
 
-.about{
+.about-me{
   width: 50%;
   
 }
@@ -42,6 +42,4 @@ span{
   text-align: center;
   border: 1px solid black;
   top: 200%;
-
-
 }
