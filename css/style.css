@@ -2,6 +2,12 @@
   width: 100%;
   margin: auto;
 } */
+h2{
+  text-align: center;
+}
+.side{
+text-align: left;
+}
 .hero{
   height: 100%;
   border: 1px solid black;
@@ -57,5 +63,27 @@ span{
 .project{
   width: 33%;
   margin: auto;
+  border: 1px solid black;
+}
+/* hobbies */
+.hobbies-interests{
+  border: 1px solid black;
+}
+.hobbies{
+  display: flex;
+}
+.hobbies-info{
+  width: 60%;
+  border: 1px solid black;
+}
+.swim{
+  width: 40%;
+  border: 1px solid black;
+}
+/* skills */
+.skills{
+  border: 1px solid black;
+}
+.footer{
   border: 1px solid black;
 }
