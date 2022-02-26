@@ -86,12 +86,8 @@ span {
   border: 1px solid black;
   text-align: center;
 }
-.top-projects {
-  display: flex;
-}
-.bottom-projects {
-  display: flex;
-}
+
+
 .project {
   width: 20%;
   margin: auto;
