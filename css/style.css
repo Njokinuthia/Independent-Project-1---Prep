@@ -1,89 +1,120 @@
-/* body{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   width: 100%;
-  margin: auto;
-} */
-h2{
+  margin: 0;
+}
+
+h2 {
   text-align: center;
+  color: #0e9094;
 }
-.side{
-text-align: left;
+a {
+  color: #69bcb8;
 }
-.hero{
-  height: 100%;
+.side {
+  text-align: left;
+}
+
+.hero {
+  height: 50vh;
   border: 1px solid black;
-  background-color: rgb(128, 128, 128);
+  background-color: #e4e5e7;
   text-align: center;
 }
-span{
-  color: white;
+span {
+  color: #e3bd19;
   font-style: italic;
 }
-.nav{
-  display: flex;
+.nav {
   justify-content: space-between;
-
 }
-
-.navbar ul > li{
+.navbar {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+.navbar ul > li {
   list-style: none;
   display: inline;
   text-align: center;
 }
+
 /* about me styling */
-.about{
+.about {
   border: 1px solid black;
-  display: flex;  
+  display: flex;
 }
-.ppic{
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ppic {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .img {
+    width: 100% !important;
+  }
+}
+.ppic {
   border: 1px solid black;
-  width: 30%;  
+  width: 30%;
 }
 
-.about-me{
+.about-me {
   width: 50%;
-  
 }
-.greeting{
+.greeting {
   position: relative;
   text-align: center;
   border: 1px solid black;
   top: 200%;
 }
 /* github projects section */
-.github-projects{
+.github-projects {
   border: 1px solid black;
   text-align: center;
 }
-.top-projects{
+.top-projects {
   display: flex;
 }
-.bottom-projects{
+.bottom-projects {
   display: flex;
 }
-.project{
-  width: 33%;
+.project {
+  width: 20%;
   margin: auto;
   border: 1px solid black;
 }
 /* hobbies */
-.hobbies-interests{
+.hobbies-interests {
   border: 1px solid black;
 }
-.hobbies{
+.hobbies {
   display: flex;
 }
-.hobbies-info{
+.hobbies-info {
   width: 60%;
   border: 1px solid black;
 }
-.swim{
+.swim {
   width: 40%;
   border: 1px solid black;
 }
 /* skills */
-.skills{
+.skills {
   border: 1px solid black;
 }
-.footer{
+.footer {
   border: 1px solid black;
 }
