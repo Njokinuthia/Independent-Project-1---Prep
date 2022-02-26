@@ -11,6 +11,7 @@ body {
 h2 {
   text-align: center;
   color: #0e9094;
+  padding-top: 30px;
 }
 a {
   color: #69bcb8;
@@ -82,16 +83,24 @@ span {
 }
 
 /* github projects section */
-.github-projects {
-  border: 1px solid black;
+.github-projects {  
   text-align: center;
+  height: 70vh;
 }
-
-
 .project {
-  width: 20%;
-  margin: auto;
-  border: 1px solid black;
+  background-color: #E6F6F5;
+  width: 25%;
+  margin: auto;  
+  border-radius: 50px;
+}
+.project>p {
+padding-top: 10px;
+}  
+.top-projects{
+  height: 30vh;
+}
+.bottom-projects{
+  height: 30vh;
 }
 
 
