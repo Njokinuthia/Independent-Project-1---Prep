@@ -12,7 +12,7 @@
 + [Installation Requirement](#Installation)
 + [Technology Used](#technology-used)
 + [Licence](#licence)
-+ [Authors Info](#author-contact)
++ [Authors Contact](#author's-contact)
 
 ## Description
 <p>This is a webpage of my portfolio.</p>
@@ -58,7 +58,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## Authors Contact
+## Author's Contact
 
 Email - kinuthiash@gmail.com
 
