@@ -27,21 +27,12 @@
 
 * An access to the Internet
 
-### Installation Process
-
-[Go Back to the top](#portfolio)
 ## Technology Used
 * HTML -  used to build the structure of the pages.
 
 * CSS -  used to style the pages. 
 
 * Bootstrap -  used for additional styling.
-
-
-## Reference
-* Materialize CSS
-
-[Go Back to the top](#portfolio)
 
 ## Licence
 
@@ -67,12 +58,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#portfolio)
 
-## Authors Info
+## Authors Contact
 
-Email - [Njoki Kinuthia](kinuthiash@gmail.com)
+Email - kinuthiash@gmail.com
 
-Linked - [Njoki Kinuthia](www.linkedin.com/in/njoki-k-b943a9188)
 
-[Go Back to the top](#portfolio)
+
