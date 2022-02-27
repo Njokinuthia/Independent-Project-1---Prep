@@ -10,9 +10,7 @@ body {
 
 h2 {
   text-align: center;
-  color: #11274E;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  color: #11274E; 
 }
 a {
   color: #e3bd19;
@@ -28,6 +26,7 @@ a {
   background-size: cover;
   text-align: center;
   color: white;
+  font-weight: bolder;
   
 }
 span {
@@ -59,11 +58,10 @@ span {
 }
 
 /* about me styling */
-
-
 .card{
   background-color: #E6F6F5;
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -73,15 +71,12 @@ span {
     align-items: center;
   }
 
-  .ppic {
+  /* .ppic {
     display: flex;
     width: 100%;
     justify-content: center;
-  }
-
-  .img {
-    width: 100% !important;
-  }
+  } */
+  
 }
 
 
@@ -89,6 +84,7 @@ span {
 .github-projects {  
   text-align: center;
   height: 70vh;
+  margin-top: 40px;
 }
 .project {
   background-color: #E6F6F5;
@@ -110,15 +106,19 @@ padding-top: 10px;
 
 
 
+
 /* hobbies */
 .hobbies {
-  display: flex;
+  display: flex;  
 }
 .hobbies-info {
   width: 60%;  
 }
 .swim {
   width: 40%; 
+}
+.hobbies-interests{
+  margin-top: 10px;
 }
 /* footer */
 .footer{
