@@ -11,9 +11,8 @@
 + [Description](#description)
 + [Installation Requirement](#Installation)
 + [Technology Used](#technology-used)
-+ [Reference](#reference)
 + [Licence](#licence)
-+ [Authors Info](#author-Info)
++ [Authors Info](#author-contact)
 
 ## Description
 <p>This is a webpage of my portfolio.</p>
