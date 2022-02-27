@@ -17,9 +17,9 @@ h2 {
 a {
   color: #e3bd19;
 }
-.side {
+/* .side {
   text-align: left;
-}
+} */
 
 .hero {
   height: 80vh;
@@ -59,24 +59,12 @@ span {
 }
 
 /* about me styling */
-/* .about {   
-  width: 90%;
-  margin: auto; 
-  display: flex;
-  padding-top: 30px;
-  height: 50vh;
-} */
-.ppic {
- 
-  width: 30%;
+
+
+.card{
+  background-color: #E6F6F5;
 }
 
-
-/* .greeting {
-  position: relative;
-  text-align: center;  
-  top: 200%;
-} */
 
 @media screen and (max-width: 768px) {
   .about {
@@ -118,10 +106,6 @@ padding-top: 10px;
   height: 30vh;
 }
 
-/* skills */
-.skills{
-  background-color: #E6F6F5;
-}
 
 
 
