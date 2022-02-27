@@ -10,46 +10,74 @@ body {
 
 h2 {
   text-align: center;
-  color: #0e9094;
+  color: #11274E;
   padding-top: 30px;
+  padding-bottom: 20px;
 }
 a {
-  color: #69bcb8;
+  color: #e3bd19;
 }
 .side {
   text-align: left;
 }
 
 .hero {
-  height: 50vh;
-  border: 1px solid black;
-  background-color: #e4e5e7;
+  height: 80vh;
+  background-image: url(../images/code.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+  color: white;
+  
 }
 span {
   color: #e3bd19;
   font-style: italic;
 }
 .nav {
-  justify-content: space-between;
+  justify-content: space-between; 
+  padding-top: 10px;
+  padding-bottom: 10px;  
+  background-color:#128FA3;
+ 
 }
 .navbar {
   width: 50%;
   display: flex;
-  justify-content: space-around;
-  border: 1px solid black;
+  justify-content: space-around;  
 }
 .navbar ul > li {
   list-style: none;
   display: inline;
   text-align: center;
 }
+.introduction{
+  padding-top: 80px;
+}
+.intro{
+  padding-top: 40px;
+}
 
 /* about me styling */
-.about {
-  border: 1px solid black;
+/* .about {   
+  width: 90%;
+  margin: auto; 
   display: flex;
+  padding-top: 30px;
+  height: 50vh;
+} */
+.ppic {
+ 
+  width: 30%;
 }
+
+
+/* .greeting {
+  position: relative;
+  text-align: center;  
+  top: 200%;
+} */
+
 @media screen and (max-width: 768px) {
   .about {
     flex-direction: column;
@@ -67,20 +95,7 @@ span {
     width: 100% !important;
   }
 }
-.ppic {
-  border: 1px solid black;
-  width: 30%;
-}
 
-.about-me {
-  width: 50%;
-}
-.greeting {
-  position: relative;
-  text-align: center;
-  border: 1px solid black;
-  top: 200%;
-}
 
 /* github projects section */
 .github-projects {  
@@ -103,26 +118,27 @@ padding-top: 10px;
   height: 30vh;
 }
 
+/* skills */
+.skills{
+  background-color: #E6F6F5;
+}
+
+
+
 
 /* hobbies */
-.hobbies-interests {
-  border: 1px solid black;
-}
 .hobbies {
   display: flex;
 }
 .hobbies-info {
-  width: 60%;
-  border: 1px solid black;
+  width: 60%;  
 }
 .swim {
-  width: 40%;
-  border: 1px solid black;
+  width: 40%; 
 }
-/* skills */
-.skills {
-  border: 1px solid black;
+/* footer */
+.footer{
+  background-color: #128FA3;
+  color: white;
 }
-.footer {
-  border: 1px solid black;
-}
+
