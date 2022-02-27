@@ -26,7 +26,7 @@ a {
   background-size: cover;
   text-align: center;
   color: white;
-  font-weight: bolder;
+  font-weight: 900;
   
 }
 span {
@@ -35,8 +35,7 @@ span {
 }
 .nav {
   justify-content: space-between; 
-  padding-top: 10px;
-  padding-bottom: 10px;  
+  padding-top: 10px;    
   background-color:#128FA3;
  
 }
@@ -53,9 +52,11 @@ span {
 }
 .introduction{
   padding-top: 80px;
+ 
 }
 .intro{
   padding-top: 40px;
+  font-size: 50px;
 }
 
 /* about me styling */
