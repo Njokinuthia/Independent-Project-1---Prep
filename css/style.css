@@ -180,11 +180,24 @@ padding-top: 10px;
   margin-top: 10px;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 768px)
+{
+  .hobbies{
+    flex-direction: column;
+    width: 100%;
+  }
+  .swim>img{
+    width: 460px;
+  }
+
+}
+
+
 /* footer */
 .footer{
   background-color: #128FA3;
   color: white;
 }
 
-/* RESPONSIVE DESIGN */
+
 
