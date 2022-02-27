@@ -51,36 +51,73 @@ span {
   padding-left: 80px;
 }
 .introduction{
-  padding-top: 80px;
- 
+  padding-top: 80px; 
 }
 .intro{
   padding-top: 40px;
   font-size: 50px;
 }
+@media screen and (max-width: 768px) {
+  .hero{
+    font-weight: bold;
+    height: 100vh;
+  }
+  .intro{
+    font-size: 30px;
+  }
+  .navbar{
+    display: none;
+  }
+  .introduction{
+    padding-top: 40px;
+  }
+ 
+
+}
+
 
 /* about me styling */
+.cont{
+  display: flex;
+   
+}
+.ppic{
+  width: 30%;
+}
+.about{
+  width: 80%;
+}
 .card{
   background-color: #E6F6F5;
 }
+.skills{
+  height: 33vh;
+}
+.top{
+  height: 16vh;
+}
+.bottom{
+  height: 16vh;
+}
+.skills>div>p{
+  text-align: center;
+}
 
-
-
-
-@media screen and (max-width: 768px) {
-  .about {
+@media screen and (max-width: 768px) {  
+  .cont {
     flex-direction: column;
+    width: 100%;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;  
+      
   }
-
-  /* .ppic {
+  .ppic {
     display: flex;
     width: 100%;
     justify-content: center;
-  } */
-  
-}
+   
+  } 
+ 
 
 
 /* github projects section */
@@ -105,11 +142,6 @@ padding-top: 10px;
   height: 30vh;
 }
 
-
-
-
-
-
 /* hobbies */
 .hobbies {
   display: flex;  
@@ -129,4 +161,6 @@ padding-top: 10px;
   background-color: #128FA3;
   color: white;
 }
+
+/* RESPONSIVE DESIGN */
 
