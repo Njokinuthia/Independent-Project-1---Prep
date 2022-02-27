@@ -127,15 +127,9 @@ span {
   }
   .skills-icons{
     display: flex;
-    text-align: center;
-    
-   
-  }
-  
-
- 
+    text-align: center; 
+  } 
 }
-
 
 /* github projects section */
 .github-projects {  
@@ -157,6 +151,19 @@ padding-top: 10px;
 }
 .bottom-projects{
   height: 30vh;
+}
+@media screen and (max-width: 768px){
+  .github-projects{
+    height: 100vh;
+  }
+  .top-projects{
+    margin-bottom: 90px;
+    margin-top: 20px;
+  }
+  .bottom-projects{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* hobbies */
