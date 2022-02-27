@@ -60,7 +60,7 @@ span {
 @media screen and (max-width: 768px) {
   .hero{
     font-weight: bold;
-    height: 100vh;
+    height: 50vh;
   }
   .intro{
     font-size: 30px;
@@ -76,8 +76,7 @@ span {
 
 /* about me styling */
 .cont{
-  display: flex;
-   
+  display: flex;   
 }
 .ppic{
   width: 30%;
@@ -88,16 +87,22 @@ span {
 .card{
   background-color: #E6F6F5;
 }
+.about-details{
+  height: 60%; 
+}
+.about-details>p{
+  font-size: 20px;
+}
 .skills{
-  height: 33vh;
+  height: 20vh;
 }
 .top{
-  height: 16vh;
+  height: 10vh;
 }
 .bottom{
-  height: 16vh;
+  height: 10vh;
 }
-.skills>div>p{
+.skills-icons{
   text-align: center;
 }
 
@@ -106,16 +111,30 @@ span {
     flex-direction: column;
     width: 100%;
     justify-content: space-around;
-    align-items: center;  
-      
+    align-items: center;       
   }
   .ppic {
-    display: flex;
+    display: none;      
+  }  
+  .about{
     width: 100%;
-    justify-content: center;
+  }
+  .about-details{
+    height: 40%; 
+  }
+  .about-details>p{
+    font-size: 15px;
+  }
+  .skills-icons{
+    display: flex;
+    text-align: center;
+    
    
-  } 
+  }
+  
+
  
+}
 
 
 /* github projects section */
